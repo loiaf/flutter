@@ -20,7 +20,7 @@ ThemeData _buildTheme({required Brightness brightness, double contrastLevel = 0.
     brightness: brightness,
     seedColor: const Color(0xff6750a4),
     contrastLevel: contrastLevel,
-  );
+  );  
   return ThemeData(
     colorScheme: scheme,
     appBarTheme: AppBarTheme(backgroundColor: scheme.primary, foregroundColor: scheme.onPrimary),
